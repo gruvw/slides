@@ -6,6 +6,7 @@
 
   <title>Bachelor Project Open-Items</title>
 
+  <base target="_blank">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -13,6 +14,16 @@
   <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
   <link rel="stylesheet" href="../reveal.js/dist/theme/black.css" id="theme">
   <link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai.css">
+
+  <style>
+    .explain {
+      color: #5ad4e6;
+    }
+
+    .progress {
+      height: 4px !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,27 +32,122 @@
     <div class="slides">
 
       <section>
-        <h2>Bachelor Project</h2>
-        <h2>Open-Items</h2>
-        <p class="text-2xl">Lucas Jung <a href="https://gruvw.com">@gruvw</a></p>
-        <p class="text-lg text-gray-400">2024 / 01 / 22</p>
+        <section data-auto-animate>
+          <h2>Bachelor Project</h2>
+          <p class="text-2xl">Lucas Jung <a href="https://gruvw.com">@gruvw</a></p>
+          <p class="text-lg text-gray-400">2024 / 01 / 22</p>
+        </section>
+
+        <section data-auto-animate>
+          <h3>Development of an Open-Source and Cross-Platform Client for a Collaborative List Application</h3>
+          <p class="text-2xl">Lucas Jung <a href="https://gruvw.com">@gruvw</a></p>
+          <p class="text-lg text-gray-400">2024 / 01 / 22</p>
+        </section>
+
+        <section data-auto-animate>
+          <h3>Open-Items</h3>
+          <p class="text-2xl">Lucas Jung <a href="https://gruvw.com">@gruvw</a></p>
+          <p class="text-lg text-gray-400">2024 / 01 / 22</p>
+        </section>
       </section>
 
       <section>
         <h3>Plan</h3>
         <ol>
-          <li>Project Presentation</li>
-          <ul>
-            <li>Problem Space</li>
-            <li>Open-Items Solution</li>
-            <li>Bachelor Project Contribution</li>
-          </ul>
-          <li>Demonstration - WEB Version</li>
-          <li>Challenges Encountered</li>
-          <li>Statistics</li>
-          <li>Future of Open-Items</li>
-          <li>Conclusion</li>
+          <li class="fragment">
+            Project Presentation
+            <ul class="fragment">
+              <li>Problem Space</li>
+              <li>Open-Items Solution</li>
+              <li>Bachelor Project Contribution</li>
+            </ul>
+          </li>
+          <li class="fragment">Demonstration - WEB Version</li>
+          <span class="fragment">
+            <li>Challenges Encountered</li>
+            <li>Statistics</li>
+            <li>Future of Open-Items</li>
+          </span>
+          <li class="fragment">Conclusion</li>
         </ol>
+      </section>
+
+      <section>
+        <section>
+          <h3>Problem Space</h3>
+          <ul>
+            <li class="fragment">Everyone needs <span class="explain">lists</span></li>
+            <li class="fragment">
+              Problems with existing solutions
+              <ol class="fragment">
+                <li>Usability</li>
+                <li>Proprietary Software</li>
+              </ol>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Usability</h3>
+          <ul>
+            <li class="fragment">Complex user interface</li>
+            <li class="fragment">Too many features</li>
+            <li class="fragment">Not <span class="explain">Cross-Platform</span></li>
+            <li class="fragment">
+              Not designed to work offline
+              <ul class="fragment">
+                <li>Internet availability</li>
+                <li>Privacy concerns</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Proprietary vs. <span class="explain">Open-Source</span></h3>
+          <ul>
+            <li class="fragment">Cost</li>
+            <li class="fragment">Privacy</li>
+            <li class="fragment">Security and transparency</li>
+            <li class="fragment">Vendor lock-in</li>
+            <li class="fragment">Community contributions</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Self-Hosting</h3>
+          <ul>
+            <li class="fragment">Your own server / Independence</li>
+            <li class="fragment">Privacy concerns</li>
+            <li class="fragment">Distributes points of failure</li>
+            <li class="fragment">Availability to self-host</li>
+            <li class="fragment">Choice</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h3>Open-Items Solution</h3>
+          <ul>
+            <li class="fragment">I use a lot of lists</li>
+            <li class="fragment">
+              Technology enhanced pen and paper
+              <ul class="fragment">
+                <li>Device synchronisation</li>
+                <li><span class="explain">Collaborative</span> lists</li>
+                <li>Easier modification</li>
+                <li>Bettor Organisation</li>
+              </ul>
+            </li>
+            <li class="fragment">Simple yet powerful interface</li>
+            <li class="fragment">Offline first</li>
+            <li class="fragment">Open-Source</li>
+            <li class="fragment">Cross-Platform</li>
+          </ul>
+
+          <div class="text-2xl mt-4">
+            ... and more, see the <a href="https://github.com/gruvw/open_items/blob/main/specifications.md">Project Specifications</a>
+          </div>
       </section>
 
       <section>
@@ -49,7 +155,7 @@
       </section>
 
       <section>
-        <section>
+        <section data-auto-animate>
           <h3>The End</h3>
           <p class="text-xl">
             Find this presentation online:<br>
@@ -57,8 +163,12 @@
           </p>
         </section>
 
-        <section>
+        <section data-auto-animate>
           <h3>Questions ?</h3>
+          <p class="text-xl">
+            Find this presentation online:<br>
+            <a class="text-xl" href="../index.html">https://slides.gruvw.com</a>
+          </p>
         </section>
       </section>
 

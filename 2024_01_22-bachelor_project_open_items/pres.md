@@ -1,33 +1,48 @@
 # Bachelor Project Open-Items
 
 - Greetings, thanks for coming
-- Present my bachelor project: Development of an Open-Source and Cross-Platform Client for a Collaborative List Application, shorter is the name of the application Open-Items
+- Present my bachelor project: Development of an Open-Source and Cross-Platform Client for a Collaborative List Application
+- Going to detail those words during the presentation and try to explain all those words (in blue), the shorter name is Open-Items as it is the name of the application I created during the project
+
+## Plan
+
+- First a deep dive into the actual project ...
+- Then a live demonstration of the application
+- Then a quick overview of what is around the project (meta) ...
 
 ## Project Presentation
 
 ### Problem Space
 
-- Need: everyone needs to write lists (examples...)
+- Need: everyone needs to write lists, it is just the natural way to store elements that we think of (examples...)
 - Current solutions are not so good (cite a few: Google Keep, Microsoft to-do, ...)
 - Class current solutions in 2 fundamental issues
-    - Not easy to use
-        - Not offline first: need to create an account and to have an internet connection, which is not always the case when you need your lists (groceries, underground, outside in the wild, ...), privacy concerns with most sensitive data (questions you need to ask to your doctor, list of medicines you take, things you buy or want, ...) invaluable data in those kind of applications for data brokers and advertisers
+    - Usability / Not easy to use (includes a lot of different things)
         - Bad UI/UX
-        - Too many features
+        - Too many features (calendar integrations, contacts, looking to be the best tool to fit all uses, end up being the right one for none)
         - Not available on all platforms (only apple or only android or only on desktop computer and not on mobile devices)
-    - Closed source problems
+        - Not offline first: need to create an account and to have an internet connection, which is not always the case when you need your lists (groceries, underground, outside in the wild, ...), privacy concerns (big corporations) with most sensitive data (questions you need to ask to your doctor, list of medicines you take, things you buy or want, ...) invaluable data in those kind of applications for data brokers and advertisers
+    - Proprietary / Closed source Software problems vs. Open-Source (often called Free-Software, free not only as in price but also as in freedom)
         - Explain main close source vs open source problems
-        - Explain the only problem with Open-Source lies on the developer (hard to get funding, which is a big downside), but I can't think of another disadvantage and certainly not from a user/consumer standpoint
-        - Cannot self-host the server, explain what is self hosting, Self hosting option is way better; show a client vs server picture and explain self-hosting with the picture
-            - Even if you don't self host yourself
-            - Distributes points of failure when there are multiple instances
+            - Cost / Freemimum / Ads or Subscriptions
+            - Privacy concerns, with big corporations collecting and selling personnal informations
+            - Security and Transparency issues, even if they tell you they don't collect your data, you have no way to check as the code is not public, where as with open source it is (anybody with some kinds of software development background can check)
+            - Vendor lock-in (making it intentionnaly hard to switch app once they are in the system)
+            - Community contributions, everyone can help and contribute to the code when open-source (add functionalites you want or fix bugs), if disagreements allowed fork the project (create your own version from now on)
+        - Another thing often offered by Open-Source initiative is self-hosting
+            - Have you own server, instead of trusting someone else with keeping your data and not reading them
+            - Distributes points of failure when there are multiple instances (one instance crashes, yours is still safe you don't notice anything)
+            - Better even if you don't self host yourself but you use some "public instances"
             - Allow for opportunity to start hosting yourself the moment you want to
+            - Choice: Although self-hosting is not for everyone as it requires some technical skills to set it up you can also choos on what instance you want your data (maybe someone you know and trust)
+        - Why isn't every Software application Open-Source ? It has one big disavantage, and it lies on the developer: hard to get funding (donnations, B2B). which is a big downside, but I can't think of another disadvantage and certainly not from a user/consumer standpoint
 
 ### Open-Items Solution
 
+Open-Items aims to be a solution to all those previous problems, and provide the best tool to store your thoughts.
+
 - Those who know me well know how much I like lists, I have a list for almost everything in my life. That makes me very qualified to identify what heavy list users want and need in order to build the best list application solution possible for this problem.
 - Actually let me tell you a quick story of how I really decided to start building the solution: check-list application (decent in features and UI but closed source) fully changed their UI with not possibility to fall back to older version (open-source would have solved this with fork)
-- Ambition to solve all those previous problem to provide the best too to store your thoughts
 - Aims to be like a good old pen and paper based list system (means without too many features) while empowering users with technology to allow quality of life features on top of it
     - Like device synchronisation
     - Collaborative lists
@@ -37,7 +52,7 @@
     - ... And much more
 - Offline first
     - No need to have an internet connection to use Open-Items (for basic uses)
-- Open-Source with all the benefits discussed earlier
+- Open-Source (with option to self-host) with all the benefits discussed earlier
 - Goal is to be very easy to use with a simple yet powerful interface
 - Being Cross-platform and working everywhere
 - Link to the full project specifications document to know more details
