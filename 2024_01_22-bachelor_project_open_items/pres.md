@@ -95,28 +95,53 @@ I will present the WEB version but this application (as it is built using Flutte
 - I also tried to think about the future server side integration and built everything around that so that when I start developing the server side code it can integrate nicely with the already available application and not have to re-write everything to include server
 - Data validation was also a topic where I struggled a little, it is always hard in software to validate data that a user provides as you have to assume the user can and will provide anything and random stuff and you need to point them toward the correct format that your application is expecting (as we saw in demo) it is also hard to provide a clean UI to explain to the user what they did wrong (that is the reason why most only forms that you have to fill in are ugly and frustrating)
 - Initially I intended to fit even more features about the Open-Items client application during this bachelor project.
-- I underestimated a bit the amount of work that was required to build all the fundamental basis to grow upon.
-- I had already dedicated an enormous amount of time to this project (honestly probably more than I should have) so I could not integrate more features during this semester.
-- However, now that all of this is coded and ready, it will be much easier to add functionalities in the future (on top of that everything is ready to adopt new features).
+    - I underestimated a bit the amount of work that was required to build all the fundamental basis to grow upon.
+    - I had already dedicated an enormous amount of time to this project (honestly probably more than I should have) so I could not integrate more features during this semester.
+    - However, now that all of this is coded and ready, it will be much easier to add functionalities in the future (on top of that everything is ready to adopt new features).
 
 ## Statistics
 
-- Lines of code / total diff
-- Commits number
-- Number of files
-- Time spent
+Let's comment a few numbers about the project.
+
+- The programming part represents about 7'000 lines of code spanned across 96 source code files
+- I contributed a total of 87 commits on the GitHub repository
+- As it's very rare to write the correct code on the first try there is an actual total of 20'000 lines that were changed in the code base across the duration of the semester.
+- All of this work represents about 230 hours of work.
+- There were a total of 14 people that tested the application in its current state to try it out and provide feedback
+- I also wrote a more technical document of 38 pages that explains and details the architectural choices behind the development.
 
 ## Future of Open-Items
 
-- List features that I will implement one by one in the future
+- I will carry on the development of Open-Items in my free-time or maybe in a future semester project at EPFL
+
+- Items custom ordering
+- Import / Export functionalities
+- Search 
+- (other client related features)
+- Server side implementation, huge amout of work
+    - Enables Device sync
+    - Collaborative lists
+
+- I really think that the application has a bright future ahead and hope it will be useful to people looking to this kind of solution.
 
 ## Conclusion
 
-Find this presentation online to go over parts that I might have gone too fast over or to follow links to the parts you were interested in
+Key takeaways of the presentation:
 
-## Questions
+- Bachelor project allowed me to work and produce the first working version of Open-Items
+- I really enjoyed coding the app
+- Designed to be efficient
+- Follows the Open-Source philosophy and will be avaiable on most platforms and devices
+- New features are to be expected in the coming years
+
+learn more about the project on the GitHub repository.
+
+## End
+
+Find this presentation online to go over parts that I might have gone too fast over or to follow links to the parts you were interested in
 
 ## Thanks
 
 - Thank audience for their time/attention (and questions)
 - Thank teachers for making this project possible by supervising my work
+- Now I would be happy to answer the questions you might have about the projet or the presentation !
