@@ -63,12 +63,12 @@ Open-Items aims to be a solution to all those previous problems, and provide the
 - Then I needed to establish those fully detailed project specifications and define a clear goal for the Bachelor
     - The whole Open-Items project as presented before is way too big to code by 1 person in 1 semester => semester project has the focus on starting building the application only "client" part of the title (no server yet so no data synchronization or collaboration or online accounts) fully offline if you prefer. So client-side only version of the app + design part 
     - So the work I did on Open-Items during this semester is all the fundamental work and building the huge basis to grow upon later, it is in fact very technical (except for the designing part) a lot of code was written and 3/4 of my time on this project was about writing the code, we can just take a look at the technical stuff so you can get what I was actually working on during this semester project
-        - Data modelling and interaction system which was probably the hardest part and it looks like that
+    - To achieve this I used the Dart + Flutter (add a few details)
+        - Data modelling and reactivity system which was probably the hardest part and it looks like that
             - Picture of code with data modeling interactions. "So I don't expect any of you to understand any of what is show in this code :)"
             - Diagram of the code models interactions. "This is the diagram representation of the data modeling classes."
             - "However, the goal of this presentation is to give a higher level view of the whole project rather than spending time to explain and details what is under the hood."
-            - "Those were just interesting to show how things are really done behind the scenes and it can give a glimpse of what I spent my time on to get to the result you will in a few minutes."
-- To achieve this I used the Dart + Flutter (add a few details)
+            - "Those were just interesting to see how things are really done behind the scenes and it can give a glimpse of what I spent my time on to get to the result you will in a few minutes."
 
 ## Demonstration
 
