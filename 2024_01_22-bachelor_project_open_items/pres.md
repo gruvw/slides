@@ -1,8 +1,12 @@
+---
+geometry: margin=2cm
+---
+
 # Bachelor Project Open-Items
 
-- Greetings, thanks for coming
+- Greetings, thank you all for coming today, Lucas Jung
 - Present my bachelor project: Development of an Open-Source and Cross-Platform Client for a Collaborative List Application
-- Going to detail those words during the presentation and try to explain all those words (in blue), the shorter name is Open-Items as it is the name of the application I created during the project
+- During the presentation try to explain all those words (in blue), for the time being let's call it Open-Items as it is the name of the application
 
 ## Plan
 
@@ -14,27 +18,24 @@
 
 ### Problem Space
 
-- Need: everyone needs to write lists, it is just the natural way to store elements that we think of (examples...)
-- Current solutions are not so good (cite a few: Google Keep, Microsoft to-do, ...)
+The idea for bulding this project arises from two observations
+
+- examples: shopping lists, todo lists, films to watch, project ideas, new year resolutions, trips planning, gifts ideas, ...
+- Current solutions are not so good
 - Class current solutions in 2 fundamental issues
     - Usability / Not easy to use (includes a lot of different things)
-        - Bad UI/UX
         - Too many features (calendar integrations, contacts, looking to be the best tool to fit all uses, end up being the right one for none)
         - Not available on all platforms (only apple or only android or only on desktop computer and not on mobile devices)
         - Not offline first: need to create an account and to have an internet connection, which is not always the case when you need your lists (groceries, underground, outside in the wild, ...), privacy concerns (big corporations) with most sensitive data (questions you need to ask to your doctor, list of medicines you take, things you buy or want, ...) invaluable data in those kind of applications for data brokers and advertisers
     - Proprietary / Closed source Software problems vs. Open-Source (often called Free-Software, free not only as in price but also as in freedom)
         - Explain main close source vs open source problems
             - Cost / Freemimum / Ads or Subscriptions
-            - Privacy concerns, with big corporations collecting and selling personnal informations
-            - Security and Transparency issues, even if they tell you they don't collect your data, you have no way to check as the code is not public, where as with open source it is (anybody with some kinds of software development background can check)
+            - Security (no data collection)
+            - Transparency issues, even if they tell you they don't collect your data, you have no way to check as the code is not public, where as with open source it is (anybody with some kinds of software development background can check)
             - Vendor lock-in (making it intentionnaly hard to switch app once they are in the system)
+            - Actually let me tell you a quick story of how I really decided to start building the solution: check-list application (decent in features and UI but closed source) fully changed their UI with not possibility to fall back to older version (open-source would have solved this with fork)
             - Community contributions, everyone can help and contribute to the code when open-source (add functionalites you want or fix bugs), if disagreements allowed fork the project (create your own version from now on)
-        - Another thing often offered by Open-Source initiative is self-hosting
-            - Have you own server, instead of trusting someone else with keeping your data and not reading them
-            - Distributes points of failure when there are multiple instances (one instance crashes, yours is still safe you don't notice anything)
-            - Better even if you don't self host yourself but you use some "public instances"
-            - Allow for opportunity to start hosting yourself the moment you want to
-            - Choice: Although self-hosting is not for everyone as it requires some technical skills to set it up you can also choos on what instance you want your data (maybe someone you know and trust)
+            - Self-hosting (server at home)
         - Why isn't every Software application Open-Source ? It has one big disavantage, and it lies on the developer: hard to get funding (donnations, B2B). which is a big downside, but I can't think of another disadvantage and certainly not from a user/consumer standpoint
 
 ### Open-Items Solution
@@ -42,7 +43,6 @@
 Open-Items aims to be a solution to all those previous problems, and provide the best tool to store your thoughts.
 
 - Those who know me well know how much I like lists, I have a list for almost everything in my life. That makes me very qualified to identify what heavy list users want and need in order to build the best list application solution possible for this problem.
-- Actually let me tell you a quick story of how I really decided to start building the solution: check-list application (decent in features and UI but closed source) fully changed their UI with not possibility to fall back to older version (open-source would have solved this with fork)
 - Aims to be like a good old pen and paper based list system (means without too many features) while empowering users with technology to allow quality of life features on top of it
     - Like device synchronisation
     - Collaborative lists
@@ -50,10 +50,10 @@ Open-Items aims to be a solution to all those previous problems, and provide the
     - Better organisation (separate accounts, move lists/sublists, transfer lists between accounts, import and export to JSON commonly used format + no vendor lock-in)
     - Search across all your lists (or specific search)
     - ... And much more
+- Goal is to be very easy to use with a simple yet powerful interface
 - Offline first
     - No need to have an internet connection to use Open-Items (for basic uses)
 - Open-Source (with option to self-host) with all the benefits discussed earlier
-- Goal is to be very easy to use with a simple yet powerful interface
 - Being Cross-platform and working everywhere
 - Link to the full project specifications document to know more details
 
@@ -65,10 +65,10 @@ Open-Items aims to be a solution to all those previous problems, and provide the
     - So the work I did on Open-Items during this semester is all the fundamental work and building the huge basis to grow upon later, it is in fact very technical (except for the designing part) a lot of code was written and 3/4 of my time on this project was about writing the code, we can just take a look at the technical stuff so you can get what I was actually working on during this semester project
     - To achieve this I used the Dart + Flutter (add a few details)
         - Data modelling and reactivity system which was probably the hardest part and it looks like that
-            - Picture of code with data modeling interactions. "So I don't expect any of you to understand any of what is show in this code :)"
-            - Diagram of the code models interactions. "This is the diagram representation of the data modeling classes."
-            - "However, the goal of this presentation is to give a higher level view of the whole project rather than spending time to explain and details what is under the hood."
-            - "Those were just interesting to see how things are really done behind the scenes and it can give a glimpse of what I spent my time on to get to the result you will in a few minutes."
+        - Picture of code with data modeling interactions. "So I don't expect any of you to understand any of what is show in this code :)"
+        - Diagram of the code models interactions. "This is the diagram representation of the data modeling classes."
+        - "However, the goal of this presentation is to give a higher level view of the whole project rather than spending time to explain and details what is under the hood."
+        - "Those were just interesting to see how things are really done behind the scenes and it can give a glimpse of what I spent my time on to get to the result you will in a few minutes."
 
 ## Demonstration
 
@@ -142,6 +142,6 @@ Find this presentation online to go over parts that I might have gone too fast o
 
 ## Thanks
 
+- Thank Dr. Jamila Sam and Dr. Barbara Jobstmann for making this project possible by supervising my work during the semester
 - Thank audience for their time/attention (and questions)
-- Thank teachers for making this project possible by supervising my work
-- Now I would be happy to answer the questions you might have about the projet or the presentation !
+- Now I would be happy to answer any questions you might have about the projet or the presentation !
